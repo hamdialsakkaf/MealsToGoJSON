@@ -16,15 +16,9 @@ export const AccountScreen = ({ navigation }) => {
     <AccountBackground>
       <AccountCover />
       <AnimationWrapper>
-        <LottieView
-          key="animation"
-          autoPlay
-          loop
-          resizeMode="cover"
-          source={require("../../../../assets/watermelon.json")}
-        />
+    
       </AnimationWrapper>
-      <Title>Meals To Go</Title>
+      <Title>المندوب - شركة الحجاجي</Title>
       <AccountContainer>
         <AuthButton
           icon="lock-open-outline"
