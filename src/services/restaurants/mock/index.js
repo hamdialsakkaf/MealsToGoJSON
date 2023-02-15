@@ -13,15 +13,15 @@ export const mocks = {
 };
 
 export const mockImages = [
-  "https://www.foodiesfeed.com/wp-content/uploads/2019/06/top-view-for-box-of-2-burgers-home-made-600x899.jpg",
-  "https://www.foodiesfeed.com/wp-content/uploads/2019/04/mae-mu-oranges-ice-600x750.jpg",
-  "https://www.foodiesfeed.com/wp-content/uploads/2020/08/detail-of-pavlova-strawberry-piece-of-cake-600x800.jpg",
-  "https://i.imgur.com/QZ3NcZl.jpg",
-  "https://www.foodiesfeed.com/wp-content/uploads/2019/04/mae-mu-pancakes-600x750.jpg",
-  "https://i.imgur.com/nReo2T2.png",
+  "https://www.dropbox.com/s/pbuwxyqxvxlp1f4/shop.jpeg?dl=0",
+  "https://www.dropbox.com/s/629cd1xbc74czvk/2.jpg",
+  "https://www.dropbox.com/s/mp73q09y5pjah4o/3.jpg",
+  "https://www.dropbox.com/s/8gg9g4jyhyqiniu/4.jpg",
+  "https://drive.google.com/file/d/1u9hZLDXBQxK9lNM8LhuGOQE6VWyDkaxt/view?usp=sharing",
+  "https://www.dropbox.com/s/up0laaaau7tqb86/1.jpg",
   "https://www.foodiesfeed.com/wp-content/uploads/2019/02/messy-pizza-on-a-black-table-600x400.jpg",
   "https://www.foodiesfeed.com/wp-content/uploads/2019/02/pizza-ready-for-baking-600x400.jpg",
   "https://i.imgur.com/ZOYr2B9m.jpg",
-  "https://www.foodiesfeed.com/wp-content/uploads/2020/05/suco-de-limao-com-slash-683x1024.jpg.webp",
+  "https://drive.google.com/file/d/12dSKrtBkF8kP4h5saI4JC7OiRjsiCeOa/view?usp=sharing",
 
 ];
