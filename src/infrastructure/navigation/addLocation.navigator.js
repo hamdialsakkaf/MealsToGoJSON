@@ -1,6 +1,7 @@
 import React from "react";
 import { SettingsScreen } from "../../features/settings/screens/settings.screen";
 import { AddLocationScreen } from "../../features/settings/screens/addLocation.screen";
+import { CameraScreen } from "../../features/account/screens/camera.screen";
 import {
   createStackNavigator,
   CardStyleInterpolators,
@@ -21,7 +22,10 @@ export const AddLocationNavigator = ({ route, navigation }) => {
             name="AddLocationScreen"
             component={AddLocationScreen}
       />
-
-    </AddLocationNavigatorStack.Navigator>
+        <AddLocationNavigatorStack.Screen
+            name="CameraScreen"
+            component={CameraScreen}
+      />
+      </AddLocationNavigatorStack.Navigator>
   );
 };

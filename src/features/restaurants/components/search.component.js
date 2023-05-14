@@ -21,6 +21,7 @@ export const Search = ({ isFavouritesToggled, onFavouritesToggle }) => {
         onIconPress={onFavouritesToggle}
         placeholder="Search for a location"
         value={searchKeyword}
+
         onSubmitEditing={() => {
           search(searchKeyword);
         }}

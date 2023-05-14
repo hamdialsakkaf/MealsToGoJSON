@@ -16,6 +16,20 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(MealsToGo) to access your camera."
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "MealsToGo"
+        }
+      ]
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -23,6 +37,12 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.hamdisakkaf.MealsToGo"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "da0b3aeb-a59c-48fe-ba84-35416465608d"
       }
     }
   }

@@ -13,15 +13,13 @@ export const mocks = {
 };
 
 export const mockImages = [
-  "https://www.dropbox.com/s/pbuwxyqxvxlp1f4/shop.jpeg?dl=0",
+  
+  "file:///data/user/0/host.exp.exponent/cache/ExperienceData/%2540hamdisakkaf%252FMealsToGo/ImagePicker/11490fb6-9616-4958-87ba-14ed8c27a723.jpg",
   "https://www.dropbox.com/s/629cd1xbc74czvk/2.jpg",
-  "https://www.dropbox.com/s/mp73q09y5pjah4o/3.jpg",
   "https://www.dropbox.com/s/8gg9g4jyhyqiniu/4.jpg",
-  "https://drive.google.com/file/d/1u9hZLDXBQxK9lNM8LhuGOQE6VWyDkaxt/view?usp=sharing",
   "https://www.dropbox.com/s/up0laaaau7tqb86/1.jpg",
   "https://www.foodiesfeed.com/wp-content/uploads/2019/02/messy-pizza-on-a-black-table-600x400.jpg",
   "https://www.foodiesfeed.com/wp-content/uploads/2019/02/pizza-ready-for-baking-600x400.jpg",
-  "https://i.imgur.com/ZOYr2B9m.jpg",
   "https://drive.google.com/file/d/12dSKrtBkF8kP4h5saI4JC7OiRjsiCeOa/view?usp=sharing",
 
 ];

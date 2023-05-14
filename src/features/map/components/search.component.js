@@ -13,11 +13,22 @@ const SearchContainer = styled.View`
 `;
 
 export const Search = () => {
-  const { keyword, search } = useContext(LocationContext);
-  const [searchKeyword, setSearchKeyword] = useState(keyword);
+  // السابق صالح
+  //const { keyword, search } = useContext(LocationContext);
+  //const { keyword, search } = useContext(LocationContext);
+  const { city, search } = useContext(LocationContext);
+
+  // السابق الصالح
+  //const [searchKeyword, setSearchKeyword] = useState(keyword);
+  const [searchKeyword, setSearchKeyword] = useState(city);
+/* السابق الصالح
   useEffect(() => {
     setSearchKeyword(keyword);
   }, [keyword]);
+  */
+  useEffect(() => {
+    setSearchKeyword(city);
+  }, [city]);
   return (
     <SearchContainer>
       <Searchbar

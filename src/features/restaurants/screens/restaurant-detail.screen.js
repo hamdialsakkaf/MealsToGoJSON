@@ -18,13 +18,12 @@ export const RestaurantDetailScreen = ({ route }) => {
       <RestaurantInfoCard restaurant={restaurant} />
       <ScrollView>
         <List.Accordion
-          title="اطارات"
+          title={restaurant.mahalTaghsos}
           left={(props) => <List.Icon {...props} icon="bread-slice" />}
           expanded={breakfastExpanded}
           onPress={() => setBreakfastExpanded(!breakfastExpanded)}
         >
-          <List.Item title="اطارات سيارات" />
-          <List.Item title="اطارات كبيرة" />
+          <List.Item title={restaurant.TaghsosProducts} />
         </List.Accordion>
 
         <List.Accordion

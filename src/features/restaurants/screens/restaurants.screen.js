@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-import { TouchableOpacity } from "react-native";
+import { TouchableOpacity, VirtualizedList } from "react-native";
 import styled from "styled-components/native";
 import { ActivityIndicator, Colors } from "react-native-paper";
 
@@ -15,6 +15,7 @@ import { Search } from "../components/search.component";
 import { RestaurantInfoCard } from "../components/restaurant-info-card.component";
 
 import { RestaurantList } from "../components/restaurant-list.styles";
+import { useEffect } from "react";
 
 const Loading = styled(ActivityIndicator)`
   margin-left: -25px;
@@ -24,6 +25,8 @@ const LoadingContainer = styled.View`
   top: 50%;
   left: 50%;
 `;
+
+
 
 export const RestaurantsScreen = ({ navigation }) => {
   const { isLoading, restaurants } = useContext(RestaurantsContext);
@@ -48,9 +51,13 @@ export const RestaurantsScreen = ({ navigation }) => {
         />
       )}
 
+
+        {restaurants && (
       <RestaurantList
         data={restaurants}
         renderItem={({ item }) => {
+          console.log('RestaurantsScreen', item)
+
           return (
             <TouchableOpacity
               onPress={() =>
@@ -69,6 +76,10 @@ export const RestaurantsScreen = ({ navigation }) => {
         }}
         keyExtractor={(item) => item.name}
       />
+
+      )
+    }
     </SafeArea>
   );
+ 
 };
