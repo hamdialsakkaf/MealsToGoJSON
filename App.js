@@ -7,7 +7,6 @@ import React from "react";
 
 
 //import { initializeApp } from "firebase";
-
 import { ThemeProvider } from "styled-components/native";
 
 import {

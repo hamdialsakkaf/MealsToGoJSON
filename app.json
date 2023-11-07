@@ -38,7 +38,12 @@
         "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
       },
-      "package": "com.hamdisakkaf.MealsToGo"
+      "package": "com.hamdisakkaf.MealsToGo",
+      "config": {
+              "googleMaps": {
+               "apiKey": "AIzaSyDVzniVMkcQODAVvSZ7zN0Ee9qxiIsO_EY"
+              }
+            }
     },
     "extra": {
       "eas": {
